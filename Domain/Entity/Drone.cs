@@ -2,12 +2,11 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Drones.Types
+namespace Drones.Domain.Entity
 {
     public class Drone
     {
         public string Name { get; set; }
-        public int MaxCapacity { get; set; }
-        public List<List<Delivery>> Trips { get; set; }
+        public decimal MaxCapacity { get; set; }
     }
 }
